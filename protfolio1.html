@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" content="viewport" name="width=device-width, initial-scale=1">
+	<title>Varsha Margrette</title>
+	<style type="text/css">
+
+.container{
+	background : linear-gradient(45deg, #CCFFFF, #FFCCCC);
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	border: 12px double #000;
+  	width: 100%;
+  	height: 100%;
+  	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: grid;
+  	grid-template-rows: 10em 7em 400px 1fr 4em 4em;
+  	grid-template-columns: 0.75fr 1fr 1.5fr 353px;
+  	grid-gap: 0 0;
+	}
+
+.img{
+	max-width: 100%;
+  	display: block;
+  	height: auto;
+  	margin-right: auto;
+  	margin-top: 20px;
+  	margin-left: 15px;
+  	border-color: black;
+  	border-width: 1px;
+  	border-style: solid;
+  	border-radius: 50%;
+  	grid-row: 1/2;
+	}
+
+.topnav{
+  	background-color: #738588;
+  	width: 350px;
+  	grid-column: 4/5;
+  	justify-self: end;
+  	height: 3em;
+  	position: absolute;
+  	align-items: right;
+  }
+
+.topnav a {
+  	float: right;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	color: black;
+ }
+
+.topnav a:hover {
+  	background-color: #ddd;
+  	color: black;
+}
+
+.topnav a.active {
+  	background-color: #4CAF50;
+  	color: white;
+}
+
+.border-profile-nav{
+	grid-row: 1/7;
+	grid-column: 4/5;
+	border-left: 3px ridge;
+}
+
+.text-side{
+	grid-column: 1/2;
+	grid-row: 2/4;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+.border-profile{
+	grid-row: 1/7;
+	grid-column: 1/2;
+	border-right: 3px ridge;
+}
+
+.text-about{
+	font-size: 20vmin;
+	font-family: "Monotype Corisova", "Times New Roman";
+}
+
+.text-header{
+	grid-column: 2/3;
+	grid-row: 1/3;
+	margin-top: 40px;
+	justify-self: center;
+}
+.text-para{
+	grid-column: 2/4;
+	grid-row: 1/3;
+	margin-top: 120px;
+	align-self: start;
+	justify-self: stretch;
+	margin-left: 25px;
+}
+.footer{
+	grid-column: 1/2;
+	grid-row: 3/4;
+	margin-bottom: 0;
+	margin-top: auto;
+	margin-right: 100px;
+	margin-left: 20px;
+}
+
+
+@media (min-width: 500px) {
+    h2 {
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+}
+
+.card1{
+	grid-column: 2/3;
+	grid-row: 3/4;
+	align-self: end;
+	justify-self: center;
+	margin-left: 25px;
+	margin-top: 0px;
+	width: 200px;
+	height: 200px;
+}
+
+.card2{
+	grid-column: 3/4;
+	grid-row: 3/4;
+	align-self: end;
+	justify-self: end;
+	margin-left: 25px;
+	margin-top: 0px;
+	width: 200px;
+	height: 200px;
+}
+
+.ext-links{
+	grid-row: 2/4;
+	grid-column: 4/5;
+	align-items: start; 
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="border-profile"><img src="C:\Users\Home\Desktop\IMG_20171228_124256_287.jpg" class="img"></div>
+	<div class="border-profile-nav"></div>
+	<div class="topnav">
+  <a class="active" href="https://github.com/MargareV" target="blank">GitHub</a>
+  <a href="https://twitter.com/not_margarita" target="blank">Twitter</a>
+  <a href="#https://www.facebook.com/varsha.margrette.92" target="blank">Facebook</a>
+    <a href="www.linkedin.com/in/varsha-margrette-054125155" target="blank">LinkedIn</a>
+</div>
+<!-- heading commented out<div class="grid-h2"><h2>My Skills</h2></div> -->
+<div class="text-side">I am an avid reader and lover of the English language. An upcoming entrepreneur. Writing is my forte and reading is my first love. Coding the second, of course! Never too busy to indulge in something new.<br><br>
+I live in Kerala, India. Orginally form Ernakulam. Currently a resident of Palakkad.</div>
+<div class="text-header"><h1>About Me</h1></div>
+<div class="text-para"><p>A final year engineering student. My branch of choice is information technology. An aspiring web developer and machine learning enthusiast.<br><br>
+Books are my first love and travelling is what I love to do. When I am not learning or reading, I love to explore new places or I work as a content writer.<br><br>
+I love coding. Java is the language that got me into programming. And I am still sticking to it all thanks to Java, MySQL and my teacher. I have done two projects so far using Java and MySQL. I am trying my hand at web development right now and so far, I'm in love. HTM5, CSS and Bootstrap are what I'm good at front-end wise. Django is what I want to venture into in the future. I have got the basics and I know I prefer back-end more to the front-end.</p></div>
+<div class="w3-card-4 card2">
+  <div><header>Project 2</header></div><br>
+  <a href="https://margrette.000webhostapp.com/online_lib.html">Click Me For More Information!</a>
+  <div class="w3-container w3-center">
+    <p>Online Library</p>
+  </div>
+</div>
+<div class="w3-card-4 card1">
+  <div><header>Project 1</header></div><br>
+  <a href="https://margrette.000webhostapp.com/detail.html">Click Me For More Information!</a>
+  <div class="w3-container w3-center">
+    <p>Child Abuse Database</p>
+  </div>
+</div>
+<div class="ext-links">
+	<nav>
+		<ul>
+			<li><a href="https://margrette.000webhostapp.com/portable_heater.html" target="blank">Project 3: Portable Heater</a></li><br>
+	<li><a href="https://margrette.000webhostapp.com/experience.html" target="blank">Experience</a></li><br>
+<li><a href="https://margrette.000webhostapp.com/communities.html" target="blank">My Communities</a></li><br>
+<li><a href="https://margrette.000webhostapp.com/index.html" target="blank">My Achievements</a></li><br>
+<li><a href="https://margrette.000webhostapp.com/index.html" target="blank">Workshops</a></li><br>
+<li><a href="https://margrette.000webhostapp.com/work_samples.html" target="blank">Work Samples</a></li>
+</ul></nav></div>
+<div class="footer"><footer>Contact Me: hello.margrette@gmail.com<br>@2018|Varsha Margrette</footer></div>
+</div>
+</body>
+</html>
